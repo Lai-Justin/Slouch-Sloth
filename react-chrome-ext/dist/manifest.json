@@ -1,10 +1,21 @@
 {
     "version": "1.0.0",
     "manifest_version": 3,
-    "name": "React Chrome Extension",
+    "name": "Slouch Sloth",
     "description": "This is a Chrome extension built with React and TypeScript",
     "action": {
         "default_popup": "js/index.html",
-        "default_title": "React Chrome Extension"
+        "default_title": "Slouch Sloth",
+        "default_icon": {
+            "16": "assets/icon16.png",
+            "32": "assets/icon32.png",
+            "48": "assets/icon48.png",
+            "128": "assets/icon128.png"
+        }
+    },
+    "icons": {
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
     }
+    
 }
